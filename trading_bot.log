@@ -1,0 +1,27 @@
+
+=== Trading Bot ===
+1. Place Market Order
+2. Place Limit Order
+3. Exit
+Enter choice (1/2/3): 1
+Enter symbol (e.g., BTCUSDT): BTCUSDT
+Enter side (BUY/SELL): buy
+Enter quantity: 1
+Market order placed: {'orderId': 4665480901, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ2ed02116a27168c12a2640', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1750734388569}
+
+=== Trading Bot ===
+1. Place Market Order
+2. Place Limit Order
+3. Exit
+Enter choice (1/2/3): 2
+Enter symbol (e.g., BTCUSDT): BTCUSDT
+Enter side (BUY/SELL): sell
+Enter quantity: 1
+Enter price: 22
+Error placing limit order: APIError(code=-4013): Price less than min price.
+
+=== Trading Bot ===
+1. Place Market Order
+2. Place Limit Order
+3. Exit
+Enter choice (1/2/3):
